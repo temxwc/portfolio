@@ -1,0 +1,178 @@
+/* All */
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Header */
+.header {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  background-color: #556983;
+  background-image: url(./../img/header/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header title */
+.header-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 130%;
+  text-align: center;
+  color: white;
+}
+
+/* Header subtitle */
+.header-subtitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* Header arrow */
+.header-arrow {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* Portfolio */
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 115px;
+  background-image: url(../img/section-bg.png);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.portfolio-section {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.portfolio-section-content p {
+  font-size: 19px;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  padding-top: 45px;
+  padding-bottom: 110px;
+  background: #1e4776;
+  color: white;
+}
+
+/* Footer row */
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer copyright */
+.footer-copyright {
+  max-width: 350px;
+  color: #7e9ec9;
+  line-height: 1.3;
+}
+
+/* Footer copyright name */
+.footer-copyright-name {
+  margin-bottom: 15px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Footer copyright paragraph */
+.footer-copyright p {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Footer icons */
+.footer-icons {
+  max-width: 350px;
+}
+
+/* Footer icons paragraph */
+.footer-icons p {
+  line-height: 1.3;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Footer icons row */
+.footer-icons-row {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer icons row and * */
+.footer-icons-row > * {
+  margin-left: 30px;
+}
+
+/* Footer contacts */
+.footer-contacts {
+  max-width: 350px;
+}
+
+/* Footer button */
+.footer-button {
+  display: inline-block;
+  border-radius: 50px;
+  border: 3px solid white;
+  height: 50px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Footer contacts paragraph */
+.footer-contacts p {
+  margin-bottom: 15px 0;
+  color: #7e9ec9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
